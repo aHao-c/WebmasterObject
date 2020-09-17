@@ -1,0 +1,64 @@
+/* 更改图标样式 */
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+/* 更改页面带澳 */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* 清除外侧滚动条 */
+.layui-body {
+    overflow: hidden;
+}
+
+/* 清除a链接动画效果 */
+a {
+    transition: none !important;
+}
+
+/* 头部个人中心头像样式 */
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+
+/* 左侧个人登录头像样式 */
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
